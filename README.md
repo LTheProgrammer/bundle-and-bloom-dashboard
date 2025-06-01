@@ -1,5 +1,6 @@
 # How to start
 
+Clone the project  
 Open a git bash terminal, get to the root : 'something/bundle-and-bloom-dashboard$'  
 Execute 'npm run install-all' to install the node modules  
 Then use the command 'npm run dev' to start both the frontend and the backend simultaneously 
