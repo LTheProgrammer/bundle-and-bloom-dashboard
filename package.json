@@ -1,0 +1,20 @@
+{
+  "name": "bundle-and-bloom-dashboard",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run dev --prefix frontend\" \"npm run dev --prefix backend\"",
+    "install-all": "npm install && npm install --prefix frontend && npm install --prefix backend"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "concurrently": "^9.1.2",
+    "eslint-plugin-react": "^7.37.5"
+  },
+  "dependencies": {
+    "uuid": "^11.1.0"
+  }
+}

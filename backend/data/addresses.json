@@ -1,0 +1,98 @@
+[
+  {
+    "id": "db92392e-1f68-4428-b114-0b8cf3be79b4",
+    "street": "1234 rue Industrielle",
+    "city": "Montréal",
+    "province": "QC",
+    "postalCode": "H2X 1Y4",
+    "country": "Canada"
+  },
+  {
+    "id": "02a804ea-2b51-40e1-9f23-df32caeac29f",
+    "street": "5678 avenue Commerce",
+    "city": "Québec",
+    "province": "QC",
+    "postalCode": "G1R 2E3",
+    "country": "Canada"
+  },
+  {
+    "id": "af6979c6-31eb-4281-aec3-d4bdca36b5df",
+    "street": "123 rue Principale",
+    "city": "Montréal",
+    "province": "QC",
+    "postalCode": "H3A 1B2",
+    "country": "Canada"
+  },
+  {
+    "id": "119d106d-df3f-4230-b786-38f52f5cc39e",
+    "street": "456 avenue des Érables",
+    "city": "Laval",
+    "province": "QC",
+    "postalCode": "H7T 2N1",
+    "country": "Canada"
+  },
+  {
+    "id": "f726a331-7d8f-4b14-89fa-cd3fe919cd1d",
+    "street": "789 boulevard Saint-Laurent",
+    "city": "Montréal",
+    "province": "QC",
+    "postalCode": "H2X 3M4",
+    "country": "Canada"
+  },
+  {
+    "id": "d5cdf6b1-3bca-45b8-ba75-19c9807210a5",
+    "street": "321 rue Cartier",
+    "city": "Québec",
+    "province": "QC",
+    "postalCode": "G1R 5S8",
+    "country": "Canada"
+  },
+  {
+    "id": "2b164204-dde5-4d60-b5b0-942dea0c8879",
+    "street": "100 rue de la Facturation",
+    "city": "Montréal",
+    "province": "QC",
+    "postalCode": "H1A 1A1",
+    "country": "Canada"
+  },
+  {
+    "id": "06ef3873-2e27-43d0-bd95-9d9eed1d1365",
+    "street": "200 avenue Billing",
+    "city": "Laval",
+    "province": "QC",
+    "postalCode": "H7B 2B2",
+    "country": "Canada"
+  },
+  {
+    "id": "fb37d814-309c-4307-b3c1-d3b1d79c425a",
+    "street": "300 rue Livraison",
+    "city": "Montréal",
+    "province": "QC",
+    "postalCode": "H3C 3C3",
+    "country": "Canada"
+  },
+  {
+    "id": "52c8fc2a-652c-4ebe-99d3-02f6fd35da8b",
+    "street": "400 boulevard Delivery",
+    "city": "Québec",
+    "province": "QC",
+    "postalCode": "G1D 4D4",
+    "country": "Canada"
+  },
+  {
+    "id": "a74f0a54-02e1-4006-85d4-36360a849d69",
+    "street": "500 avenue Express",
+    "city": "Gatineau",
+    "province": "QC",
+    "postalCode": "J8E 5E5",
+    "country": "Canada"
+  },
+  {
+    "id": "b76cc690-f7f0-4514-8b52-490cc9a766c4",
+    "street": "600 rue Rapide",
+    "city": "Sherbrooke",
+    "province": "QC",
+    "postalCode": "J1F 6F6",
+    "country": "Canada"
+  }
+]

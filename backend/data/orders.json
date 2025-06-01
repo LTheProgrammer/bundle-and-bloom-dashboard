@@ -1,0 +1,304 @@
+[
+  {
+    "id": "7490f574-7681-4bd7-a346-218066ecfced",
+    "customerId": "cf899b40-dbfa-4f93-968a-1e6b891fd799",
+    "warehouseId": "d7ade6fb-36d0-40aa-99aa-aae856f3d002",
+    "date": "2025-05-20",
+    "status": "pending",
+    "billingAddressId": "2b164204-dde5-4d60-b5b0-942dea0c8879",
+    "deliveryAddressId": "fb37d814-309c-4307-b3c1-d3b1d79c425a",
+    "lineItems": [
+      {
+        "id": "8f2a5b1c-3d4e-4a5b-9c1d-7e8f9a0b1c2d",
+        "productId": "a81a1056-9236-4c57-885c-814a3c633d72",
+        "productName": "Coffret Saint-Valentin",
+        "price": 89.99,
+        "quantity": 1
+      },
+      {
+        "id": "4e7d8c9b-1a2f-4b5c-8d9e-3f4a5b6c7d8e",
+        "productId": "be087efe-52ac-4f72-aef0-505b35b1bb96",
+        "productName": "Carte de Vœux",
+        "price": 2.99,
+        "quantity": 2
+      }
+    ],
+    "subtotal": 92.97,
+    "taxes": 13.95,
+    "total": 106.92,
+    "statusHistory": [
+      {
+        "status": "pending",
+        "timestamp": "2025-05-20T10:00:00Z",
+        "userId": "f3e0ba75-76f9-46cd-b7d4-e97a278454a5",
+        "comment": "Commande créée"
+      },
+      {
+        "status": "preparing",
+        "timestamp": "2025-05-20T11:30:00Z",
+        "userId": "e7b1c3b1-afbd-46cc-94d0-6c4abf250c91",
+        "comment": "Préparation en cours"
+      },
+      {
+        "status": "ready",
+        "timestamp": "2025-05-20T14:15:00Z",
+        "userId": "e7b1c3b1-afbd-46cc-94d0-6c4abf250c91",
+        "comment": "Prêt pour expédition"
+      },
+      {
+        "status": "shipped",
+        "timestamp": "2025-05-20T16:00:00Z",
+        "userId": "f3e0ba75-76f9-46cd-b7d4-e97a278454a5",
+        "comment": "Expédié via Purolator"
+      },
+      {
+        "status": "delivered",
+        "timestamp": "2025-05-21T10:30:00Z",
+        "userId": "f3e0ba75-76f9-46cd-b7d4-e97a278454a5",
+        "comment": "Livré avec succès"
+      }
+    ],
+    "createdAt": "2025-05-20T10:00:00Z",
+    "updatedAt": "2025-05-21T10:30:00Z"
+  },
+  {
+    "id": "46b07706-047e-405a-a854-45af25f473db",
+    "customerId": "7ea1cdf6-66d8-4543-b8ae-91de9098df2a",
+    "warehouseId": "d7ade6fb-36d0-40aa-99aa-aae856f3d002",
+    "date": "2025-05-22",
+    "status": "shipped",
+    "billingAddressId": "06ef3873-2e27-43d0-bd95-9d9eed1d1365",
+    "deliveryAddressId": "52c8fc2a-652c-4ebe-99d3-02f6fd35da8b",
+    "lineItems": [
+      {
+        "id": "2c5f8a9d-6e1b-4c7a-9f2e-5d8b3a1c4e7f",
+        "productId": "0d1042d5-4a71-42b2-8309-d73604f515d7",
+        "productName": "Bouquet de Mariage Deluxe",
+        "price": 159.99,
+        "quantity": 2
+      },
+      {
+        "id": "9a3e6b1f-4c7d-4e8a-b2f5-8c9d1e4a7b2c",
+        "productId": "e5fca80c-4908-44f1-b1b1-45a68d068433",
+        "productName": "Champagne Brut",
+        "price": 45.99,
+        "quantity": 1
+      }
+    ],
+    "subtotal": 365.97,
+    "taxes": 54.9,
+    "total": 420.87,
+    "statusHistory": [
+      {
+        "status": "pending",
+        "timestamp": "2025-05-22T09:15:00Z",
+        "userId": "f3e0ba75-76f9-46cd-b7d4-e97a278454a5",
+        "comment": "Commande urgente - mariage"
+      },
+      {
+        "status": "preparing",
+        "timestamp": "2025-05-22T10:00:00Z",
+        "userId": "e7b1c3b1-afbd-46cc-94d0-6c4abf250c91",
+        "comment": "Préparation bouquets"
+      },
+      {
+        "status": "ready",
+        "timestamp": "2025-05-22T15:30:00Z",
+        "userId": "e7b1c3b1-afbd-46cc-94d0-6c4abf250c91",
+        "comment": "Bouquets terminés"
+      },
+      {
+        "status": "shipped",
+        "timestamp": "2025-05-22T17:45:00Z",
+        "userId": "f3e0ba75-76f9-46cd-b7d4-e97a278454a5",
+        "comment": "Expédition express"
+      }
+    ],
+    "createdAt": "2025-05-22T09:15:00Z",
+    "updatedAt": "2025-05-22T17:45:00Z"
+  },
+  {
+    "id": "33ce6d72-13a0-44ad-99cf-2b4dc99225f4",
+    "customerId": "bc26367f-1bf1-499b-b43f-2fc414621753",
+    "warehouseId": "f6416435-2239-4735-8ba2-6e3d541caa34",
+    "date": "2025-05-24",
+    "status": "preparing",
+    "billingAddressId": "f726a331-7d8f-4b14-89fa-cd3fe919cd1d",
+    "deliveryAddressId": "a74f0a54-02e1-4006-85d4-36360a849d69",
+    "lineItems": [
+      {
+        "id": "7d1a4c8e-2f5b-4a9d-8e3c-6b1f4a7d2e5c",
+        "productId": "873ffe2c-8596-4002-b3ff-0cbc92100ab8",
+        "productName": "Coffret Fête des Mères",
+        "price": 69.99,
+        "quantity": 3
+      },
+      {
+        "id": "5b8e2a1d-9c4f-4d7a-a1e4-3f6b8c5d9a2e",
+        "productId": "f7a133b4-5e8b-41de-8fc4-e363bc8f1e9c",
+        "productName": "Vase en Cristal",
+        "price": 29.99,
+        "quantity": 1
+      }
+    ],
+    "subtotal": 239.96,
+    "taxes": 35.99,
+    "total": 275.95,
+    "statusHistory": [
+      {
+        "status": "pending",
+        "timestamp": "2025-05-24T13:20:00Z",
+        "userId": "e7b1c3b1-afbd-46cc-94d0-6c4abf250c91",
+        "comment": "Commande fête des mères"
+      },
+      {
+        "status": "preparing",
+        "timestamp": "2025-05-24T14:45:00Z",
+        "userId": "e7b1c3b1-afbd-46cc-94d0-6c4abf250c91",
+        "comment": "Assemblage des coffrets"
+      }
+    ],
+    "createdAt": "2025-05-24T13:20:00Z",
+    "updatedAt": "2025-05-24T14:45:00Z"
+  },
+  {
+    "id": "9ed4022e-67ae-4117-a2d9-b37900689a48",
+    "customerId": "0ae36de5-5038-4c42-9157-3ca3f50879b4",
+    "warehouseId": "d7ade6fb-36d0-40aa-99aa-aae856f3d002",
+    "date": "2025-05-25",
+    "status": "ready",
+    "billingAddressId": "d5cdf6b1-3bca-45b8-ba75-19c9807210a5",
+    "deliveryAddressId": "b76cc690-f7f0-4514-8b52-490cc9a766c4",
+    "lineItems": [
+      {
+        "id": "1f4a7d2c-8e5b-4c9a-9d3e-2a5f8b1c4d7e",
+        "productId": "55d740d0-53a2-4101-8c05-c39ecb8369b3",
+        "productName": "Roses Rouges (12 unités)",
+        "price": 24.99,
+        "quantity": 4
+      },
+      {
+        "id": "6c9f2e5a-1d4b-4a8c-8f1e-4a7d2c5b8e9f",
+        "productId": "9104b7c0-f6d5-4061-ab0a-a1517dde8cf7",
+        "productName": "Chocolats Fins Belges",
+        "price": 18.99,
+        "quantity": 2
+      },
+      {
+        "id": "3e8b5a2f-7c1d-4f9a-a4c7-5d8e1b4a7c2f",
+        "productId": "b0b08caa-c8cf-4852-be18-ae4a6b7f7c8a",
+        "productName": "Papier Cadeau Premium",
+        "price": 4.99,
+        "quantity": 1
+      }
+    ],
+    "subtotal": 142.94,
+    "taxes": 21.44,
+    "total": 164.38,
+    "statusHistory": [
+      {
+        "status": "pending",
+        "timestamp": "2025-05-25T11:00:00Z",
+        "userId": "f3e0ba75-76f9-46cd-b7d4-e97a278454a5",
+        "comment": "Commande anniversaire"
+      },
+      {
+        "status": "preparing",
+        "timestamp": "2025-05-25T12:30:00Z",
+        "userId": "e7b1c3b1-afbd-46cc-94d0-6c4abf250c91",
+        "comment": "Préparation roses et chocolats"
+      },
+      {
+        "status": "ready",
+        "timestamp": "2025-05-25T16:20:00Z",
+        "userId": "e7b1c3b1-afbd-46cc-94d0-6c4abf250c91",
+        "comment": "Emballage terminé"
+      }
+    ],
+    "createdAt": "2025-05-25T11:00:00Z",
+    "updatedAt": "2025-05-25T16:20:00Z"
+  },
+  {
+    "id": "3373560d-59a9-4b43-9975-1a3d82261116",
+    "customerId": "378b0338-3018-4a0a-8b9d-bfef68845c39",
+    "warehouseId": "d7ade6fb-36d0-40aa-99aa-aae856f3d002",
+    "date": "2025-05-26",
+    "status": "pending",
+    "billingAddressId": "af6979c6-31eb-4281-aec3-d4bdca36b5df",
+    "deliveryAddressId": "fb37d814-309c-4307-b3c1-d3b1d79c425a",
+    "lineItems": [
+      {
+        "id": "4a7c1e8d-2f5b-4d9c-9a3e-6f1b4c7d8a5e",
+        "productId": "b856cc43-291d-41c1-9949-8ae262dbe06b",
+        "productName": "Roses Blanches (12 unités)",
+        "price": 22.99,
+        "quantity": 6
+      },
+      {
+        "id": "8e2d5a1c-9f4b-4c8a-a7d2-1e4b8c5f9a3d",
+        "productId": "9e0e551e-345f-40ef-8c04-aa0155f037e1",
+        "productName": "Roses Roses (12 unités)",
+        "price": 23.99,
+        "quantity": 2
+      },
+      {
+        "id": "2b5f8c1e-4a7d-4e9c-c2a5-8d1f4b7e2c9a",
+        "productId": "7993ee67-cfb8-404c-a6a2-7b0630d48686",
+        "productName": "Ruban Satin",
+        "price": 3.99,
+        "quantity": 3
+      }
+    ],
+    "subtotal": 197.91,
+    "taxes": 29.69,
+    "total": 227.6,
+    "statusHistory": [
+      {
+        "status": "pending",
+        "timestamp": "2025-05-26T08:45:00Z",
+        "userId": "f3e0ba75-76f9-46cd-b7d4-e97a278454a5",
+        "comment": "Nouvelle commande reçue"
+      }
+    ],
+    "createdAt": "2025-05-26T08:45:00Z",
+    "updatedAt": "2025-05-26T08:45:00Z"
+  },
+  {
+    "id": "6013a983-b724-42a9-bac8-eaac6f8c099e",
+    "customerId": "cf899b40-dbfa-4f93-968a-1e6b891fd799",
+    "warehouseId": "f6416435-2239-4735-8ba2-6e3d541caa34",
+    "date": "2025-05-26",
+    "status": "pending",
+    "billingAddressId": "2b164204-dde5-4d60-b5b0-942dea0c8879",
+    "deliveryAddressId": "52c8fc2a-652c-4ebe-99d3-02f6fd35da8b",
+    "lineItems": [
+      {
+        "id": "7c1e4a8d-5f2b-4a9c-9e3d-4c7a1e8b5f2d",
+        "productId": "9104b7c0-f6d5-4061-ab0a-a1517dde8cf7",
+        "productName": "Chocolats Fins Belges",
+        "price": 18.99,
+        "quantity": 5
+      },
+      {
+        "id": "9f4c7a1e-8d2b-4c5a-a8e1-2f5c9a4d7b1e",
+        "productId": "be087efe-52ac-4f72-aef0-505b35b1bb96",
+        "productName": "Carte de Vœux",
+        "price": 2.99,
+        "quantity": 5
+      }
+    ],
+    "subtotal": 109.9,
+    "taxes": 16.49,
+    "total": 126.39,
+    "statusHistory": [
+      {
+        "status": "pending",
+        "timestamp": "2025-05-26T14:15:00Z",
+        "userId": "e7b1c3b1-afbd-46cc-94d0-6c4abf250c91",
+        "comment": "Commande corporate - cadeaux employés"
+      }
+    ],
+    "createdAt": "2025-05-26T14:15:00Z",
+    "updatedAt": "2025-05-26T14:15:00Z"
+  }
+]

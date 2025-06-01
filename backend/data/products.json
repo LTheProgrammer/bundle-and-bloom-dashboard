@@ -1,0 +1,144 @@
+[
+  {
+    "id": "55d740d0-53a2-4101-8c05-c39ecb8369b3",
+    "name": "Roses Rouges (12 unités)",
+    "price": 24.99,
+    "isComposite": false,
+    "isActive": true
+  },
+  {
+    "id": "b856cc43-291d-41c1-9949-8ae262dbe06b",
+    "name": "Roses Blanches (12 unités)",
+    "price": 22.99,
+    "isComposite": false,
+    "isActive": true
+  },
+  {
+    "id": "9e0e551e-345f-40ef-8c04-aa0155f037e1",
+    "name": "Roses Roses (12 unités)",
+    "price": 23.99,
+    "isComposite": false,
+    "isActive": true
+  },
+  {
+    "id": "9104b7c0-f6d5-4061-ab0a-a1517dde8cf7",
+    "name": "Chocolats Fins Belges",
+    "price": 18.99,
+    "isComposite": false,
+    "isActive": true
+  },
+  {
+    "id": "e5fca80c-4908-44f1-b1b1-45a68d068433",
+    "name": "Champagne Brut",
+    "price": 45.99,
+    "isComposite": false,
+    "isActive": true
+  },
+  {
+    "id": "7993ee67-cfb8-404c-a6a2-7b0630d48686",
+    "name": "Ruban Satin",
+    "price": 3.99,
+    "isComposite": false,
+    "isActive": true
+  },
+  {
+    "id": "f7a133b4-5e8b-41de-8fc4-e363bc8f1e9c",
+    "name": "Vase en Cristal",
+    "price": 29.99,
+    "isComposite": false,
+    "isActive": true
+  },
+  {
+    "id": "b0b08caa-c8cf-4852-be18-ae4a6b7f7c8a",
+    "name": "Papier Cadeau Premium",
+    "price": 4.99,
+    "isComposite": false,
+    "isActive": true
+  },
+  {
+    "id": "be087efe-52ac-4f72-aef0-505b35b1bb96",
+    "name": "Carte de Vœux",
+    "price": 2.99,
+    "isComposite": false,
+    "isActive": true
+  },
+  {
+    "id": "a81a1056-9236-4c57-885c-814a3c633d72",
+    "name": "Coffret Saint-Valentin",
+    "price": 89.99,
+    "isComposite": true,
+    "children": [
+      {
+        "id": "55d740d0-53a2-4101-8c05-c39ecb8369b3",
+        "quantity": 1
+      },
+      {
+        "id": "9104b7c0-f6d5-4061-ab0a-a1517dde8cf7",
+        "quantity": 1
+      },
+      {
+        "id": "e5fca80c-4908-44f1-b1b1-45a68d068433",
+        "quantity": 1
+      },
+      {
+        "id": "7993ee67-cfb8-404c-a6a2-7b0630d48686",
+        "quantity": 1
+      },
+      {
+        "id": "be087efe-52ac-4f72-aef0-505b35b1bb96",
+        "quantity": 1
+      }
+    ],
+    "isActive": true
+  },
+  {
+    "id": "0d1042d5-4a71-42b2-8309-d73604f515d7",
+    "name": "Bouquet de Mariage Deluxe",
+    "price": 159.99,
+    "isComposite": true,
+    "children": [
+      {
+        "id": "b856cc43-291d-41c1-9949-8ae262dbe06b",
+        "quantity": 1
+      },
+      {
+        "id": "9e0e551e-345f-40ef-8c04-aa0155f037e1",
+        "quantity": 1
+      },
+      {
+        "id": "7993ee67-cfb8-404c-a6a2-7b0630d48686",
+        "quantity": 1
+      },
+      {
+        "id": "f7a133b4-5e8b-41de-8fc4-e363bc8f1e9c",
+        "quantity": 1
+      }
+    ],
+    "isActive": true
+  },
+  {
+    "id": "873ffe2c-8596-4002-b3ff-0cbc92100ab8",
+    "name": "Coffret Fête des Mères",
+    "price": 69.99,
+    "isComposite": true,
+    "children": [
+      {
+        "id": "9e0e551e-345f-40ef-8c04-aa0155f037e1",
+        "quantity": 1
+      },
+      {
+        "id": "9104b7c0-f6d5-4061-ab0a-a1517dde8cf7",
+        "quantity": 1
+      },
+      {
+        "id": "b0b08caa-c8cf-4852-be18-ae4a6b7f7c8a",
+        "quantity": 1
+      },
+      {
+        "id": "be087efe-52ac-4f72-aef0-505b35b1bb96",
+        "quantity": 1
+      }
+    ],
+    "isActive": true
+  }
+]

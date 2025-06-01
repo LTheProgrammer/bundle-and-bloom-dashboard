@@ -1,0 +1,50 @@
+[
+  {
+    "id": "758a417f-7c6b-4f3b-bb77-866b70d03311",
+    "email": "admin@logistics.com",
+    "name": "Michael Johnson",
+    "passwordHash": "$2a$10$mSN2MoDlrQ6De0CgUZ./keLGGzo7CKgLSQ9yIkXZ1eYhOtKsfqy8G",
+    "permissions": [
+      "manage:users",
+      "view:orders",
+      "create:orders",
+      "edit:orders",
+      "view:materials",
+      "export:materials",
+      "manage:inventory"
+    ],
+    "createdAt": "2025-01-01T00:00:00Z",
+    "lastLogin": "2025-05-26T08:30:00Z",
+    "isActive": true
+  },
+  {
+    "id": "f3e0ba75-76f9-46cd-b7d4-e97a278454a5",
+    "email": "manager@logistics.com",
+    "name": "Emily Rodriguez",
+    "passwordHash": "$2a$10$A3hX3kuxRsYh9lb8KouBPePYgaUx86stB67I9mvFs9YCcnn/ySKB2",
+    "permissions": [
+      "view:orders",
+      "create:orders",
+      "edit:orders",
+      "view:materials",
+      "export:materials",
+      "manage:inventory"
+    ],
+    "createdAt": "2025-01-05T10:00:00Z",
+    "lastLogin": "2025-05-25T17:45:00Z",
+    "isActive": true
+  },
+  {
+    "id": "e7b1c3b1-afbd-46cc-94d0-6c4abf250c91",
+    "name": "Charles Thompson",
+    "email": "employee@logistics.com",
+    "passwordHash": "$2a$10$VDI4F0kkUICODo05Z58fH.CCJDdxZP042xds2dmBpClslspzuSyZG",
+    "permissions": [
+      "view:orders",
+      "view:materials"
+    ],
+    "createdAt": "2025-01-10T09:00:00Z",
+    "lastLogin": "2025-05-24T13:15:00Z",
+    "isActive": true
+  }
+]

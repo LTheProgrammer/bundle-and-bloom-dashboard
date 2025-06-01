@@ -1,0 +1,58 @@
+[
+  {
+    "id": "2a9df6b0-61ec-47cd-b2a6-d634fd69f97e",
+    "orderId": "7490f574-7681-4bd7-a346-218066ecfced",
+    "userId": "f3e0ba75-76f9-46cd-b7d4-e97a278454a5",
+    "amount": 106.92,
+    "paymentSystem": "Stripe",
+    "fees": 3.21,
+    "status": "completed",
+    "meta": {
+      "rawResponse": "{\"charge_id\":\"ch_1234567890\",\"last4\":\"4242\"}",
+      "paymentDate": "2025-05-20T10:05:00Z"
+    },
+    "createdAt": "2025-05-20T10:05:00Z"
+  },
+  {
+    "id": "3a71aa7f-b388-4931-8b10-e7ddb8d7335d",
+    "orderId": "46b07706-047e-405a-a854-45af25f473db",
+    "userId": "f3e0ba75-76f9-46cd-b7d4-e97a278454a5",
+    "amount": 420.87,
+    "paymentSystem": "PayPal",
+    "fees": 12.63,
+    "status": "completed",
+    "meta": {
+      "rawResponse": "{\"transaction_id\":\"TXN987654321\",\"payer_email\":\"bob.lemieux@email.com\"}",
+      "paymentDate": "2025-05-22T09:20:00Z"
+    },
+    "createdAt": "2025-05-22T09:20:00Z"
+  },
+  {
+    "id": "1b8b7bad-cf74-4809-96ce-7f5542e5b66b",
+    "orderId": "33ce6d72-13a0-44ad-99cf-2b4dc99225f4",
+    "userId": "e7b1c3b1-afbd-46cc-94d0-6c4abf250c91",
+    "amount": 275.95,
+    "paymentSystem": "Stripe",
+    "fees": 8.28,
+    "status": "completed",
+    "meta": {
+      "rawResponse": "{\"charge_id\":\"ch_2345678901\",\"last4\":\"5555\"}",
+      "paymentDate": "2025-05-24T13:25:00Z"
+    },
+    "createdAt": "2025-05-24T13:25:00Z"
+  },
+  {
+    "id": "02b61c94-42b2-4422-a44e-091390cab497",
+    "orderId": "9ed4022e-67ae-4117-a2d9-b37900689a48",
+    "userId": "f3e0ba75-76f9-46cd-b7d4-e97a278454a5",
+    "amount": 164.38,
+    "paymentSystem": "Stripe",
+    "fees": 4.93,
+    "status": "completed",
+    "meta": {
+      "rawResponse": "{\"charge_id\":\"ch_3456789012\",\"last4\":\"1234\"}",
+      "paymentDate": "2025-05-25T11:05:00Z"
+    },
+    "createdAt": "2025-05-25T11:05:00Z"
+  }
+]

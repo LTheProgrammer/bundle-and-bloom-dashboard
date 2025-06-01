@@ -1,0 +1,37 @@
+[
+  {
+    "id": "cf899b40-dbfa-4f93-968a-1e6b891fd799",
+    "name": "Alice Tremblay",
+    "email": "alice.tremblay@email.com",
+    "addressId": "af6979c6-31eb-4281-aec3-d4bdca36b5df",
+    "createdAt": "2025-01-15T10:00:00Z"
+  },
+  {
+    "id": "7ea1cdf6-66d8-4543-b8ae-91de9098df2a",
+    "name": "Bob Lemieux",
+    "email": "bob.lemieux@email.com",
+    "addressId": "119d106d-df3f-4230-b786-38f52f5cc39e",
+    "createdAt": "2025-02-03T14:30:00Z"
+  },
+  {
+    "id": "bc26367f-1bf1-499b-b43f-2fc414621753",
+    "name": "Charlie Dubois",
+    "email": "charlie.dubois@email.com",
+    "addressId": "f726a331-7d8f-4b14-89fa-cd3fe919cd1d",
+    "createdAt": "2025-02-20T09:15:00Z"
+  },
+  {
+    "id": "0ae36de5-5038-4c42-9157-3ca3f50879b4",
+    "name": "Diana Rousseau",
+    "email": "diana.rousseau@email.com",
+    "addressId": "d5cdf6b1-3bca-45b8-ba75-19c9807210a5",
+    "createdAt": "2025-03-10T16:45:00Z"
+  },
+  {
+    "id": "378b0338-3018-4a0a-8b9d-bfef68845c39",
+    "name": "Edward Martin",
+    "email": "edward.martin@email.com",
+    "addressId": "af6979c6-31eb-4281-aec3-d4bdca36b5df",
+    "createdAt": "2025-04-05T11:20:00Z"
+  }
+]

@@ -1,0 +1,164 @@
+[
+  {
+    "id": "d4401fc2-a99c-42c5-840e-d6690a7eb616",
+    "productId": "55d740d0-53a2-4101-8c05-c39ecb8369b3",
+    "warehouseId": "d7ade6fb-36d0-40aa-99aa-aae856f3d002",
+    "quantity": 150,
+    "reservedQuantity": 25,
+    "minThreshold": 20,
+    "lastUpdated": "2025-05-26T14:30:00Z"
+  },
+  {
+    "id": "bac14989-3327-40df-aca1-4b3af3cf7bf0",
+    "productId": "b856cc43-291d-41c1-9949-8ae262dbe06b",
+    "warehouseId": "d7ade6fb-36d0-40aa-99aa-aae856f3d002",
+    "quantity": 120,
+    "reservedQuantity": 15,
+    "minThreshold": 20,
+    "lastUpdated": "2025-05-26T14:30:00Z"
+  },
+  {
+    "id": "166340f8-0f60-47f3-a1eb-94b3383bfd0e",
+    "productId": "9e0e551e-345f-40ef-8c04-aa0155f037e1",
+    "warehouseId": "d7ade6fb-36d0-40aa-99aa-aae856f3d002",
+    "quantity": 98,
+    "reservedQuantity": 20,
+    "minThreshold": 20,
+    "lastUpdated": "2025-05-26T14:30:00Z"
+  },
+  {
+    "id": "592283cf-d79e-471b-a56d-cf47d4b7e61a",
+    "productId": "9104b7c0-f6d5-4061-ab0a-a1517dde8cf7",
+    "warehouseId": "d7ade6fb-36d0-40aa-99aa-aae856f3d002",
+    "quantity": 85,
+    "reservedQuantity": 12,
+    "minThreshold": 15,
+    "lastUpdated": "2025-05-26T14:30:00Z"
+  },
+  {
+    "id": "a6184a2b-1753-4d41-808b-bfcfee55c74c",
+    "productId": "e5fca80c-4908-44f1-b1b1-45a68d068433",
+    "warehouseId": "d7ade6fb-36d0-40aa-99aa-aae856f3d002",
+    "quantity": 45,
+    "reservedQuantity": 8,
+    "minThreshold": 10,
+    "lastUpdated": "2025-05-26T14:30:00Z"
+  },
+  {
+    "id": "a045e7b6-1d03-4b3d-b5cb-07f4ad9f04ba",
+    "productId": "7993ee67-cfb8-404c-a6a2-7b0630d48686",
+    "warehouseId": "d7ade6fb-36d0-40aa-99aa-aae856f3d002",
+    "quantity": 200,
+    "reservedQuantity": 30,
+    "minThreshold": 50,
+    "lastUpdated": "2025-05-26T14:30:00Z"
+  },
+  {
+    "id": "961fc5cb-dc3c-404e-9d1f-d87351c6a1ed",
+    "productId": "f7a133b4-5e8b-41de-8fc4-e363bc8f1e9c",
+    "warehouseId": "d7ade6fb-36d0-40aa-99aa-aae856f3d002",
+    "quantity": 35,
+    "reservedQuantity": 5,
+    "minThreshold": 10,
+    "lastUpdated": "2025-05-26T14:30:00Z"
+  },
+  {
+    "id": "86f8af10-2607-4006-b700-e8aeec8921bf",
+    "productId": "b0b08caa-c8cf-4852-be18-ae4a6b7f7c8a",
+    "warehouseId": "d7ade6fb-36d0-40aa-99aa-aae856f3d002",
+    "quantity": 150,
+    "reservedQuantity": 25,
+    "minThreshold": 30,
+    "lastUpdated": "2025-05-26T14:30:00Z"
+  },
+  {
+    "id": "15419933-8293-4d2c-8535-fbc99aef6c8a",
+    "productId": "be087efe-52ac-4f72-aef0-505b35b1bb96",
+    "warehouseId": "d7ade6fb-36d0-40aa-99aa-aae856f3d002",
+    "quantity": 300,
+    "reservedQuantity": 45,
+    "minThreshold": 75,
+    "lastUpdated": "2025-05-26T14:30:00Z"
+  },
+  {
+    "id": "b3f7542f-1871-4002-84b8-173144eb84b0",
+    "productId": "55d740d0-53a2-4101-8c05-c39ecb8369b3",
+    "warehouseId": "f6416435-2239-4735-8ba2-6e3d541caa34",
+    "quantity": 75,
+    "reservedQuantity": 10,
+    "minThreshold": 15,
+    "lastUpdated": "2025-05-26T14:30:00Z"
+  },
+  {
+    "id": "9f377cca-2b0b-4d4a-a6f2-4a0749d4598a",
+    "productId": "b856cc43-291d-41c1-9949-8ae262dbe06b",
+    "warehouseId": "f6416435-2239-4735-8ba2-6e3d541caa34",
+    "quantity": 60,
+    "reservedQuantity": 8,
+    "minThreshold": 15,
+    "lastUpdated": "2025-05-26T14:30:00Z"
+  },
+  {
+    "id": "1d34b314-3e22-4486-a8d9-c2edc32f1e7b",
+    "productId": "9e0e551e-345f-40ef-8c04-aa0155f037e1",
+    "warehouseId": "f6416435-2239-4735-8ba2-6e3d541caa34",
+    "quantity": 55,
+    "reservedQuantity": 12,
+    "minThreshold": 15,
+    "lastUpdated": "2025-05-26T14:30:00Z"
+  },
+  {
+    "id": "6a3d50fb-f429-49f1-a5f1-ba52c7851dd0",
+    "productId": "9104b7c0-f6d5-4061-ab0a-a1517dde8cf7",
+    "warehouseId": "f6416435-2239-4735-8ba2-6e3d541caa34",
+    "quantity": 40,
+    "reservedQuantity": 6,
+    "minThreshold": 10,
+    "lastUpdated": "2025-05-26T14:30:00Z"
+  },
+  {
+    "id": "4bf90d8b-0c87-49af-acd0-755a88619c1d",
+    "productId": "e5fca80c-4908-44f1-b1b1-45a68d068433",
+    "warehouseId": "f6416435-2239-4735-8ba2-6e3d541caa34",
+    "quantity": 8,
+    "reservedQuantity": 3,
+    "minThreshold": 5,
+    "lastUpdated": "2025-05-26T14:30:00Z"
+  },
+  {
+    "id": "04b989b5-b0bd-46ba-a7d6-14e0bfd90603",
+    "productId": "7993ee67-cfb8-404c-a6a2-7b0630d48686",
+    "warehouseId": "f6416435-2239-4735-8ba2-6e3d541caa34",
+    "quantity": 80,
+    "reservedQuantity": 15,
+    "minThreshold": 25,
+    "lastUpdated": "2025-05-26T14:30:00Z"
+  },
+  {
+    "id": "ec684abd-beae-45d9-a325-316bb516105e",
+    "productId": "f7a133b4-5e8b-41de-8fc4-e363bc8f1e9c",
+    "warehouseId": "f6416435-2239-4735-8ba2-6e3d541caa34",
+    "quantity": 15,
+    "reservedQuantity": 2,
+    "minThreshold": 5,
+    "lastUpdated": "2025-05-26T14:30:00Z"
+  },
+  {
+    "id": "6242e6c7-5fec-40ac-9b17-5b8c97fc038d",
+    "productId": "b0b08caa-c8cf-4852-be18-ae4a6b7f7c8a",
+    "warehouseId": "f6416435-2239-4735-8ba2-6e3d541caa34",
+    "quantity": 65,
+    "reservedQuantity": 10,
+    "minThreshold": 15,
+    "lastUpdated": "2025-05-26T14:30:00Z"
+  },
+  {
+    "id": "b4e66ac4-afc0-4149-a2ad-daadb32c1d62",
+    "productId": "be087efe-52ac-4f72-aef0-505b35b1bb96",
+    "warehouseId": "f6416435-2239-4735-8ba2-6e3d541caa34",
+    "quantity": 120,
+    "reservedQuantity": 18,
+    "minThreshold": 30,
+    "lastUpdated": "2025-05-26T14:30:00Z"
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "id": "d7ade6fb-36d0-40aa-99aa-aae856f3d002",
+    "name": "Entrepôt Principal - Montréal",
+    "addressId": "db92392e-1f68-4428-b114-0b8cf3be79b4",
+    "isActive": true
+  },
+  {
+    "id": "f6416435-2239-4735-8ba2-6e3d541caa34",
+    "name": "Entrepôt Secondaire - Québec",
+    "addressId": "02a804ea-2b51-40e1-9f23-df32caeac29f",
+    "isActive": true
+  }
+]
