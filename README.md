@@ -168,13 +168,13 @@ The document generation functions were fully vibecoded by AI there's probably a 
 
 I won't go into details, field by field, feel free to open the .json and look at it. Most fields aren't anything special I'll focus on table particularities.  
 
-Customers : It could use a field 'updatedAt' and it contains a reference to 1 address  
-Addresses: not great, with the current structure we can end up with addresses whose owner we ignore, ideally they should be attached to a customer either through a joint table, by transforming the address field on customer to an array or by adding the customer_id on the address entry.  
-Inventory: Could use a field 'location' to indicate to the worker where in the warehouse the product is. It has reference to product and warehouse.  
-Warehouse: has a field isActive so if you need to 'delete' it you turn it inactive and the orders can still refer to it. It has a reference to an address  
-Product : has a field isActive for the same reason as warehouse, in case of edit or delete you turn the product inactive. This avoids the need of 'product_snapshot', as the product information never changes once entered you don't need to save them at the moment of the purchase.  
+-Customers : It could use a field 'updatedAt' and it contains a reference to 1 address  
+-Addresses: not great, with the current structure we can end up with addresses whose owner we ignore, ideally they should be attached to a customer either through a joint table, by transforming the address field on customer to an array or by adding the customer_id on the address entry.  
+-Inventory: Could use a field 'location' to indicate to the worker where in the warehouse the product is. It has reference to product and warehouse.  
+-Warehouse: has a field isActive so if you need to 'delete' it you turn it inactive and the orders can still refer to it. It has a reference to an address  
+-Product : has a field isActive for the same reason as warehouse, in case of edit or delete you turn the product inactive. This avoids the need of 'product_snapshot', as the product information never changes once entered you don't need to save them at the moment of the purchase.  
 The field children contains references to other products and their quantity. As mentioned previously you can combine bundles into a mega bundle and even more. The isComposite field was thought to signal that something is a bundle but it could be deleted as the products having children is an indicator in itself.  
-Orders : It contains references to the tables : customer, warehouse, address, product and user. I tied orders to warehouse in this project, but it cause an issue, you can't order items from different warehouses in one order. We could then put the warehouse_id on the line_item. But then composite product could only be composed of product from the same warehouse. Depending if the bundle are physical box of product or a group of product the way to handle the situation would be different.  
-Users: typical users structure, contains a hashed password, permissions but no role.  
-Transactions : unused table, It was intended to represent payment/money movement and display their status on a page  
+-Orders : It contains references to the tables : customer, warehouse, address, product and user. I tied orders to warehouse in this project, but it cause an issue, you can't order items from different warehouses in one order. We could then put the warehouse_id on the line_item. But then composite product could only be composed of product from the same warehouse. Depending if the bundle are physical box of product or a group of product the way to handle the situation would be different.  
+-Users: typical users structure, contains a hashed password, permissions but no role.  
+-Transactions : unused table, It was intended to represent payment/money movement and display their status on a page  
 
